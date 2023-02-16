@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Override the default display</title>
+	<style type="text/css">
+		.a{
+			display: inline;
+			width: 100px;
+			height: 100px;
+			padding: 5px;border: 1px solid black;
+			background-color: blue;
+		}
+		.b{
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			padding: 5px;border: 1px solid black;
+			background-color: blue;
+		}
+		.c{
+			display: block;
+			width: 100px;
+			height: 100px;
+			padding: 5px;border: 1px solid black;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+    <p>Good Evening. <span class="a">Hello</span><span class="a">Guys</span></p>
+    <p>Good Evening. <span class="b">Hello</span><span class="b">Guys</span></p>
+    <p>Good Evening. <span class="c">Hello</span><span class="c">Guys</span></p>
+</body>
+</html>
